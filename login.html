@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body background="bg.jpg">
+    <ul>
+        <li>
+    <div class="container">
+        <div class="signIn">Click Here to Sign In</div>
+        <div class="fold">
+            <form action="success.html">
+                <input type="text" name="" placeholder="Username">
+                <input type="password" name="" placeholder="Password">
+                <a href="analogus.html">
+                <input type="submit" name="" value="Login"></a>
+                <a href="Successfull.html">Forget Password</a>
+            </form>
+        </div>
+    </div>
+    </li><br>
+    <li><div class="container">
+        <div class="signIn">Click Here to Sign In</div>
+        <div class="fold">
+            <form>
+                <input type="text" name="" placeholder="Username">
+                <input type="password" name="" placeholder="Password">
+                <a href="analogus.html">
+                <input type="submit" name="" value="Login"></a>
+                <a href="Index.html">Forget Password</a>
+            </form>
+        </div>
+    </div>
+    </li>
+    </ul>
+    <script  language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.signIn').click(function(){
+                $('.fold').toggleClass('active')
+            })
+        })
+    </script>    
+</body>
+</html>

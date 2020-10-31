@@ -1,0 +1,37 @@
+.mainpic{
+    width: 100%;
+    height:500px;
+}
+.rfloat.lfloat{
+    width: 50px;
+   height:20px;
+
+}
+.rfloat{
+    width: 300px;
+    height: auto;
+    float: right;
+}
+.lfloat{
+    float:left;
+}
+div{
+   margin: 20px;
+   display: inline-block;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:brown;
+
+}
+p{
+    font-family: cursive;
+    color: purple;
+    font-size: 1.34em;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    text-align: center;
+}

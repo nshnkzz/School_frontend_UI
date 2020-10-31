@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="aform.css">
+</head>
+<body>
+    <h1>ADMISSION FORM</h1>
+    <h6>SESSION 2019-2020</h6>
+    <form action="form.php" method="POST">
+        <table align="center">
+            <tr>
+                <td>Student Name:</td>
+                <td><Input type="text" name="stuname" placeholder="Student Name" required></Input></td>
+            </tr>
+            <tr>
+                <td>Father's Name:</td>
+            <td><Input type="text" name="faname" placeholder="Father name"></Input></td></tr>
+            <tr>
+                <td>D.O.B.:</td>
+                <td><Input type="date" name="dob"  placeholder="dd/mm/yyyy" required ></td>
+                    
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male" checked required>Male &nbsp;
+                    <input type="radio" name="gender" value="female" checked required>Female</td>
+            </tr>
+            <tr>
+                <td>Applying For:</td>
+                <td><select name="class" required>
+                    <option value="">select</option>
+                    <option value="L.K.G.">L.K.G.</option>
+                    <option value="NURSERY">NURSERY</option>
+                    <option value="U.K.G.">U.K.G.</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="11M">11MATHS</option>
+                    <option value="11C">11COMMERCE</option>
+                    <option value="11S">11SCIENCE</option>
+                   
+                </select></td>
+            </tr>
+            <tr>
+                <td>Contact no.:</td>
+                <td><input type="number"required name="cno" placeholder="contact no."></td>
+            </tr>
+        </table>
+        <input class="butn" type="submit">
+    </form>
+</body>
+</html>

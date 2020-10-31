@@ -1,0 +1,45 @@
+*{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+h6{
+    font-weight: lighter;
+    text-align: center;
+    font-family: cursive;
+}
+table{
+    text-align: center;
+    background: cyan;
+    position: relative;
+}
+td{
+    padding: 30px;
+    text-align: left;
+}
+input{
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: cyan;
+
+}
+select{
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: cyan;
+}
+.butn{
+    width: 100%;
+    border: none;
+    background-color:red;
+    text-align: center;
+    padding: 2px;
+    height: 30px;
+}
